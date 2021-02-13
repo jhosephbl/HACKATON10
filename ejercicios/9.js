@@ -6,10 +6,11 @@
 // // The first "c" has index 0, the last "c" has index 8.
 
 
-const edad = prompt('ingresa tu anio de nacimiento');
+const palabra = 'Hackaton semana 10';
 
-const anioActual = 2021;
+const letra = 'a'
 
-edadActual = anioActual - edad;
+const firstIden = palabra.indexOf(letra);
+const lastIden = palabra.lastIndexOf(letra)
 
-console.log(edadActual);
+console.log((`La primera aparicion de la letra a es en ${firstIden}`) + (` Y la ultima aparicion es en ${lastIden}`));

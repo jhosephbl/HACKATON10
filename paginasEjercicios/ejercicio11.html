@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio11</title>
+    <title>Ejercicio 11</title>
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
@@ -11,55 +11,24 @@
     <main class="main">
         <div class="e1">
             <h1 class="titulo">Ejercicio 11</h1>
-            <h2 class="pregunta">Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
-                año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5
-                años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo
-                y represéntelo ,que permita determinar el bono que recibirá un trabajador</h2>
+            <h2 class="pregunta">Cree la función que toma una matriz con objetos y devuelve la suma de los
+                presupuestos de las personas.</h2>
             
                 <div class="resultado">
-                   <p> const anio1 = 1;</p>
-                   <p> const anio2 = 2;</p>
-                   <p> const anio3 = 3;</p>
-                   <p> const anio4 = 4;</p>
-                   <p> const anio5 = 5;</p>
-                   <p> const anio10 = 10;</p>
-<p>
-                   <p> let trabajador;</p>
-<p>
-                   <p> trabajador = parseInt(prompt('Ingresa tus anios de trabajo'))</p>
-<p>
-<p>
-<p>
-<p>
-                   <p> if(trabajador == anio1){</p>
-                   <p>     console.log('El trabajador recibira $' + 100);</p>
-                   <p>     }</p>
-                   <p>     
-                   <p>     else if (trabajador == anio2){</p>
-                   <p>         console.log('El trabajador recibira $' + 200);</p>
-                   <p>     }</p>
-<p>
-                   <p>     else if (trabajador == anio3){</p>
-                   <p>         console.log('El trabajador recibira $' + 300);</p>
-                   <p>     }</p>
-<p>
-                   <p>     else if (trabajador == anio4){</p>
-                   <p>         console.log('El trabajador recibira $' + 400);</p>
-                   <p>     }</p>
-<p>
-                   <p>     else if (trabajador == anio5){</p>
-                   <p>         console.log('El trabajador recibira $' + 500);</p>
-                   <p>     }</p>
-<p>
-                   <p>     else if (trabajador > anio5 && trabajador <= anio10){</p>
-                   <p>         console.log('El trabajador recibira $' + 1000);</p>
-                   <p>     }</p>
-                   <p>     
-                   <p>     else {</p>
-                   <p>     console.log('Ingrese datos correctamente');</p>
-                   <p>     }</p>
+                 <p>  const sumas = [</p>
+                 <p>  { name: "John", age: 21, budget: 23000 },</p>
+                 <p>  { name: "Steve", age: 32, budget: 40000 },</p>
+                 <p>  { name: "Martin", age: 16, budget: 2700 }</p>
+                 <p> ]</p>
+                
+                 <p> let suma = 0;</p>
+                 <p> sumas.forEach( presu => {</p>
+                 <p>     suma += presu.budget;</p>
+                 <p> })</p>
+                 <p> 
+                 <p> console.log(suma);</p>
      
-                  </div>
+                 </div>
 
             <nav class="button"><a href="../index.html">Regresar</a></nav>
         </div>
