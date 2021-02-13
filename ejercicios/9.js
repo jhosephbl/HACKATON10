@@ -1,6 +1,10 @@
-// Una empresa que contrata personal requiere determinar la edad de las
-// personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se
-// les pregunta el año en que nacieron
+// Dada una palabra, escriba una función que devuelva el primer índice y el último índice de un carácter.
+// charIndex("hello", "l") ➞ [2, 3]
+// // The first "l" has index 2, the last "l" has index 3.
+
+// charIndex("circumlocution", "c") ➞ [0, 8]
+// // The first "c" has index 0, the last "c" has index 8.
+
 
 const edad = prompt('ingresa tu anio de nacimiento');
 

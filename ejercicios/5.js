@@ -1,8 +1,8 @@
-// Calcular el área de una circunferencia
+// Crear una función que reciba un array de valores y filtre los valores que no son string
 
-const radio = 28;
-const pi = 3.14159;
+const datosString = ['Jhoseph' , 'Eduardo' , 'Bautista' , 'Laura' , 25, 26 , 56 , '26 anios']
 
-area = pi * (radio * radio)
+const result = datosString.filter(word => word.length);
 
-console.log(area);
+console.log(result);
+

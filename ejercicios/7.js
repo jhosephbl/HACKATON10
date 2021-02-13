@@ -1,13 +1,13 @@
-// Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
-// Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas,
-// pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a
-// resolver el problema, determinando cuantas pulgadas debe pedir con base en
-// los metros que requiere. Represéntelo mediante el diagrama de flujo y el
-// pseudocódigo (1 pulgada = 0.0254 m).
+//Escriba una función que tome una matriz de 10 enteros (entre 0 y 9) y devuelva una cadena en forma de un número de teléfono.
+// formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) ➞ "(123) 456-7890"
 
-const pulgada = 0.0254;
-const metros = 580;
 
-resultado = metros / pulgada;
 
-console.log(resultado);
+
+const numeros = [[1, 2, 3],[4, 5, 6, 7],[8, 9, 0]];
+
+const inicio = numeros[0]
+const cuerpo = numeros[1]
+const final = numeros[2]
+
+console.log(inicio + cuerpo + final);

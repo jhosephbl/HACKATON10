@@ -1,12 +1,9 @@
-// Un estudiante realiza 4 exámenes, calcular el promedio de estos
+// Cree una función que tome números y devuelva la suma de sus cubos. sumOfCubes(1, 5, 9) ➞ 855 // Since 1^3 + 5^3 + 9^3 = 1 + 125 + 729 = 855
 
-const exa1 = 12;
-const exa2 = 15;
-const exa3 = 20;
-const exa4 = 08;
+const cubo1 = Math.pow(3,3);
+const cubo2 = Math.pow(7,3);
+const cubo3 = Math.pow(10,3);
 
-const cantExamenes= 4;
+resultado = cubo1 + cubo2 + cubo3;
 
-resultado = (exa1 + exa1 + exa1 + exa1) / cantExamenes;
-
-console.log('Su promedio es ' + resultado);
+console.log(resultado);

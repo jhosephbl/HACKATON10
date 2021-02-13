@@ -1,10 +1,15 @@
-// Calcular el área de un triángulo
+// Crear una función que reciba n cantidad de argumentos y los sume ( utilizar parametros rest)
 
-const base = 5;
-const altura = 10;
 
-const divisor = 2;
+const numbers = [1, 2, 3, 4, 5, 6]
+function suma(...numbers){
+    let total = 0;
+    for(var i=0; i<numbers.length; i++){
+        total += numbers[i]
+    }
+    return total;
+};
 
-area = (base * altura) / divisor;
+console.log(`Resultado de la función: ` + suma(...numbers));
 
-console.log(area);
+

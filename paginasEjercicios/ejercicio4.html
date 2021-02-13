@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio4</title>
+    <title>Ejercicio 4</title>
     <link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
@@ -11,17 +11,19 @@
     <main class="main">
         <div class="e1">
             <h1 class="titulo">Ejercicio 4</h1>
-            <h2 class="pregunta">Calcular el área de un triángulo</h2>
+            <h2 class="pregunta">Crear una función que reciba n cantidad de argumentos y los sume ( utilizar parametros rest)</h2>
             
             <div class="resultado">
-               <p>const base = 5;</p> 
-               <p>const altura = 10;</p> 
-
-               <p>const divisor = 2;</p> 
-
-               <p>area = (base * altura) / divisor;</p> 
-
-               <p>console.log(area);</p> 
+               <p>const numbers = [1, 2, 3, 4, 5, 6]</p>
+               <p>function suma(...numbers){</p>
+               <p>    let total = 0;</p>
+               <p>    for(var i=0; i<numbers.length; i++){</p>
+               <p>        total += numbers[i]</p>
+               <p>    }</p>
+               <p>    return total;</p>
+               <p>};</p>
+               <p>
+               <p>console.log(`Resultado de la función: ` + suma(...numbers));</p>
             </div>
 
             <nav class="button"><a href="../index.html">Regresar</a></nav>

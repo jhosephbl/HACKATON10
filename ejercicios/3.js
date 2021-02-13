@@ -1,8 +1,19 @@
-// Calcular el área de un rectángulo
+// Crear una funcion que me retorne el tipo de valor entregado, invocar la función para los distintos tipos de js
 
-const b = 12;
-const a = 10;
+const dato = prompt('Ingresa tu fecha de nacimiento');
 
-area = a * b;
+if dato == Number{
+    console.log('Es un numero');
+}
 
-console.log(area);
+else if dato == Text{
+    console.log('Es un texto');
+}
+
+else {
+    console.log(Ingrese un valor valido);
+}
+
+
+
+
